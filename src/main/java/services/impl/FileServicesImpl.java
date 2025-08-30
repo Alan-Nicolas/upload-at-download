@@ -1,1 +1,0 @@
-package services.impl;import org.springframework.stereotype.Service;import org.springframework.web.multipart.MultipartFile;import services.FileService;@Servicepublic class FileServicesImpl implements FileService {    @Override    public void save(MultipartFile file) {    }}
